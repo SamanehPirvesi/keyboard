@@ -1,0 +1,1 @@
+the simple example about read input from the keyboard
