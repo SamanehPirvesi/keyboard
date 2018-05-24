@@ -6,13 +6,13 @@ public class KeyboardInput {
 
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
-		System.out.println("enter your number");
-		int number=input.nextInt();
+//		System.out.println("enter your number");
+//		int number=input.nextInt();
 		System.out.println("enter your name");
-		String name=input.next();
-		System.out.println("enter your media");
-		double media=input.nextDouble();
-		System.out.println(number+"  "+name+" "+media);
+		String name=input.nextLine();
+		//System.out.println("enter your media");
+		//float media=input.nextFloat();
+		System.out.println("  "+name+" ");
 		input.close();
 
 	}
